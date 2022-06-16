@@ -1,12 +1,10 @@
-console.log("Hello World");
-
+let playerSelection = prompt("Select rock, paper, or scissors");
 function computerPlay() {
 options = ["rock", "paper", "scissors"]
-return random.choice(options)
+let computerSelection = random.choice(options);
+return computerSelection;
 }
-
 function playRound(computerSelection, playerSelection) {
-let computerSelection = computerPlay()
 let result;
 if ((playerSelection == "rock" && computerSelection == "scissors") ||
     (playerSelection == "paper" && computerSelection == "rock") ||
