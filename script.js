@@ -1,3 +1,5 @@
+console.log("Hello World");
+
 function computerPlay() {
 options = ["rock", "paper", "scissors"]
 return random.choice(options)
@@ -19,7 +21,7 @@ else {
     }
 }
 
-function game {
-    for (i = 0, i > 5, i++)
+function game() {
+    for (let i = 0; i > 5; i++)
     playRound(computerSelection, playerSelection)
 }
