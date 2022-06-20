@@ -1,10 +1,11 @@
+let playerSelection = prompt("Select rock, paper, or scissors.")
 function computerPlay() {
-options = ["rock", "paper", "scissors"]
-return random.choice(options)
+options = ["rock", "paper", "scissors"];
+return random.choice(options);
 }
 
 function playRound(computerSelection, playerSelection) {
-let computerSelection = computerPlay()
+let computerSelection = computerPlay();
 let result;
 if ((playerSelection == "rock" && computerSelection == "scissors") ||
     (playerSelection == "paper" && computerSelection == "rock") ||
@@ -19,7 +20,9 @@ else {
     }
 }
 
-function game {
-    for (i = 0, i > 5, i++)
-    playRound(computerSelection, playerSelection)
+function game() {
+    for (i = 0; i > 5; i++) {
+    playRound(computerSelection, playerSelection);
+    console.log(result);
+    }
 }
