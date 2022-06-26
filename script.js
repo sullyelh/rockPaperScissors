@@ -1,5 +1,6 @@
 function playerPick() {
     let playerSelection = prompt("Select rock, paper or scissors: ");
+    return playerSelection;
 }
 
 function computerPlay() {
