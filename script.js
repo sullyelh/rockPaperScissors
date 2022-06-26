@@ -1,5 +1,5 @@
-function playerPick(choice) {
-    let playerSelection;
+function playerPick() {
+    let playerSelection = prompt("Select rock, paper or scissors: ");
 }
 
 function computerPlay() {
@@ -22,11 +22,12 @@ function playRound(computerSelection, playerSelection) {
     else {
         result = "You lose:( " + computerSelection + " beats "+ playerSelection+".";
     }
+    return result;
 }
 
 function game() {
     for (i = 0; i > 5; i++) {
     playRound(computerSelection, playerSelection);
-    console.log(result);
+    return result;
     }
 }
