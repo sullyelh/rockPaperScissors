@@ -5,23 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
 
-    <h1 class = "text-center">Rock Paper Scissors</h1>
-    <div class = "container">
-        <div class = "d-flex text-center">
-            <button id = "btn-rock" class = "btn btn-secondary btn-lg">&#129704</button>
-            <button id = "btn-paper" class = "btn btn-secondary btn-lg">&#9995</button>
-            <button id = "btn-scissors" class = "btn btn-secondary btn-lg">&#9986</button>
+<body>
+    <div class = "selections">
+        <button data-selection="rock" class="selection">✊</button>
+        <button data-selection="paper" class="selection">✋</button>
+        <button data-selection="scissors" class="selection">✌️</button>
+    </div>
+    <div class="results">
+        <div>
+            You
+            <span class="result-score" data-your-score>0</span>
+        </div>
+        <div data-final-column>
+            Computer
+            <span class="result-score" data-computer-score>0</span>
         </div>
     </div>
-
-
+<!--   <div class="result-selection">✌️</div>
+    <div class="result-selection-winner">✊</div> -->
 
     <script src="./script.js"></script>
-    <script src="script.js"></script>
-
 </body>
+
 </html>
+
+
+  
