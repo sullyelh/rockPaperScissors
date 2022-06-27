@@ -1,3 +1,4 @@
+
 function playerPick() {
     let playerSelection = prompt("Select rock, paper or scissors: ");
     return playerSelection;
@@ -32,3 +33,6 @@ function game() {
     return result;
     }
 }
+const computerSelection = computerPlay();
+const playerSelection = playerPick();
+console.log(playRound(computerSelection, playerSelection));
