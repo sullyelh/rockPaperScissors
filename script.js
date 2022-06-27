@@ -27,13 +27,13 @@ function playRound(computerSelection, playerSelection) {
     return result;
 }
 
-// function game() {
-//     for (i = 0; i > 5; i++) {
-//     playRound(computerSelection, playerSelection);
-//     return result;
-//     }
-// }
-// const computerSelection = computerPlay();
-// const playerSelection = playerPick();
-// console.log(playRound(computerSelection, playerSelection));
+ function game() {
+     for (i = 0; i > 5; i++) {
+     playRound(computerSelection, playerSelection);
+     return result;
+     }
+ }
+ const computerSelection = computerPlay();
+ const playerSelection = playerPick();
+ console.log(playRound(computerSelection, playerSelection));
 
